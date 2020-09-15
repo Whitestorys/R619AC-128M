@@ -128,9 +128,9 @@ jobs:
         name: OpenWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin
         
-   - name: Upload  IPK
-     uses: actions/upload-artifact@main
-     with:
+    - name: Upload  IPK
+      uses: actions/upload-artifact@main
+      with:
         name: OpenWrt-Mod-Ipk
         path: ./new/package
 

@@ -117,7 +117,7 @@ jobs:
       run: df -hT
       
     - name: Prepare Artifact
-        run: |
+      run: |
           mkdir -p ./new/package
           cp -rf $(find ./bin/packages/ -type f -name "*.ipk") ./new/package
 

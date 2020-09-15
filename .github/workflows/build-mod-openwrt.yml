@@ -119,7 +119,7 @@ jobs:
     - name: Prepare Artifact
       run: |
           mkdir -p ./new/package
-          cp -rf $(find /openwrt/bin/targets/*/*/packages -type f -name "*.ipk") ./new/package
+          cp -rf $(find ./openwrt/bin/targets/*/*/packages -type f -name "*.ipk") ./new/package
 
     - name: Upload bin directory
       uses: actions/upload-artifact@main

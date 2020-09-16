@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build Mod OpenWrt With Ipk
+name: Build Mod OpenWrt With ipk
 
 on:
   repository_dispatch:

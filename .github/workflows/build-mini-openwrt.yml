@@ -20,7 +20,7 @@ on:
     paths:
       - 'mini.config'
   schedule:
-   - cron: 0 2 * * *
+   - cron: 0 22 * * *
   watch:
     types: started
 

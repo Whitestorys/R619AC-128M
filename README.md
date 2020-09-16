@@ -11,4 +11,4 @@
 ## 竞斗云Openwrt自动编译
 - 本项目Action内为竞斗云固件，每日22：00 UTC(北京时间早上6点)自动编译
 - Mod版本包含adguard、酸酸乳、passwall、京东签到、Clash等插件以及仓库内全部主题
-- Mini版本包含基本使用插件，详细插件清空可以看各个config
+- Mini版本包含基本使用插件，详细插件可以看各个config的内容

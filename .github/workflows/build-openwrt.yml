@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build For OpenWrt
+name: Build Mini OpenWrt With Ipk
 
 on:
   repository_dispatch:

@@ -15,6 +15,5 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-cd package
-git clone https://github.com/Whitestorys/openwrt-packages.git
-git clone https://github.com/Whitestorys/small.git
+sed -i '$a src-git Whitestorys https://github.com/Whitestorys/openwrt-packages' feeds.conf.default
+sed -i '$a src-git Whitecolor https://github.com/Whitestorys/small' feeds.conf.default

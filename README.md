@@ -13,3 +13,11 @@
 - Mod版本包含Adguard、酸酸乳、Passwall、京东签到、Clash等插件以及仓库内全部主题
 - Mini版本包含基本使用插件，详细插件可以看各个Config的内容
 - 固件提供Cowtransfer和Wetransfer下载，有效期均为7天，IPK只提供Action内下载
+## 更新记录
+
+### V1.0
+- 增加IPK编译以及上传
+- 增加软件库以及依赖库
+
+### V2.0
+- 规范代码书写

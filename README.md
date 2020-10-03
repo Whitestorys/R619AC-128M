@@ -26,7 +26,7 @@
 ### V3.0
 - 同步Lede环境配置，增加依赖库
 
-## Acknowledgments
+## 致谢
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
 - [Lienol's OpenWrt](https://github.com/Lienol/openwrt)

@@ -26,6 +26,9 @@
 ### V3.0
 - 同步Lede环境配置，增加依赖库
 
+### V4.0
+- 去除set-env操作，适应官方新版要求，新版详见Test版
+
 ## 致谢
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)

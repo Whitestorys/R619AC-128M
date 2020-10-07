@@ -107,7 +107,12 @@ jobs:
     - name: Check space usage
       if: (!cancelled())
       run: df -hT
-
+      
+    - name: Prepare Artifact
+      run: |
+          mkdir -p ./new/package
+          cp -rf $(find ./openwrt/bin -type f -name "*.ipk") ./new/package
+          
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
@@ -115,6 +120,12 @@ jobs:
         name: OpenWrt_bin_${{ steps.compile.outputs.DEVICE_NAME }}_${{ steps.compile.outputs.FILE_DATE }}
         path: openwrt/bin
 
+    - name: Upload  IPK
+      uses: actions/upload-artifact@main
+      with:
+        name: OpenWrt-Mod-Ipk
+        path: ./new/package
+    
     - name: Organize files
       id: organize
       if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()

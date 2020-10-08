@@ -132,7 +132,7 @@ jobs:
         name: OpenWrt-Mod-Ipk
         path: ./new/package
    
-   - name: Organize files
+    - name: Organize files
       id: organize
       if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
       run: |

@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build Mod OpenWrt For Test2
 
 on:
   repository_dispatch:
@@ -16,11 +16,11 @@ on:
     types: published
   push:
     branches:
-      - master
+      - main
     paths:
-      - "mod.config"
+      - 'mod.config'
   schedule:
-    - cron: 0 22 * * *
+   - cron: 0 22 * * *
   watch:
     types: started
 

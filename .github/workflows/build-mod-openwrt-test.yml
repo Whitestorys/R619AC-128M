@@ -16,7 +16,7 @@ on:
     branches:
       - master
     paths:
-      - "mod.config"
+      - "Test"
   schedule:
     - cron: 0 22 * * *
   watch:

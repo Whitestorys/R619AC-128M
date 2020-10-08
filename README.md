@@ -1,8 +1,8 @@
 # R619AC-128M
 
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/Whitestorys/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/Whitestorys/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/Whitestorys/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
+[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/Whitestorys/R619AC-128M/blob/master/LICENSE)
+![GitHub Stars](https://img.shields.io/github/stars/Whitestorys/R619AC-128M.svg?style=flat-square&label=Stars&logo=github)
+![GitHub Forks](https://img.shields.io/github/forks/Whitestorys/R619AC-128M.svg?style=flat-square&label=Forks&logo=github)
 
 ## 基于Github Action的openwrt编译脚本
 - 基于Actions-OpenWrt制作完成的自动编译脚本

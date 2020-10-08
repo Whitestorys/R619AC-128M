@@ -27,7 +27,7 @@
 - 同步Lede环境配置，增加依赖库
 
 ### V4.0
-- 去除set-env操作，适应官方新版要求，新版详见Test版
+- 去除set-env指令，适应官方最新要求，新版详见Test版
 
 ## 致谢
 - [OpenWrt](https://github.com/openwrt/openwrt)
